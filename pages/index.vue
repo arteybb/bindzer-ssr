@@ -1,8 +1,8 @@
 <template>
-     <nav>
+    <nav>
         <div class="nav-container">
             <div class="nav-logo">
-                <h1 style="font-family: sans-serif;">BINDZER TECH</h1>
+               <img style="width:100px;" src="@/public/assets/img/logo.png" alt="">
             </div>
             <div class="nav-menu">
                 <li><a href="#">Home</a></li>
@@ -23,15 +23,18 @@
                 <div class="header-grid">
                     <div class="header-item-text">
                         <h2>
-                            BINDZER TECHNOLOGY<br>
-                            THE SOLUTION SOLVER FOR YOU.
+                            Technology<br>
+                            Driven Business<br>
+                            Innovation
                         </h2>
                         <p>
-                            We are the tech artist. We solve problem not make it.
+                            We believe that technology drives innovation, creates new
+                            opportunities, and fuels business growth in a rapidly
+                            changing world.
                         </p>
                     </div>
                     <div class="header-item-img">
-                            <img style="width:300px;" src="@/public/assets/img/robot.png" alt="">
+                            <img style="width:90%" src="@/public/assets/img/banner.png" alt="">
                     </div>
                 </div>
                </div>
@@ -41,106 +44,24 @@
     <div class="about-wrapper">
         <div class="about-inner">
             <div class="container">
+               <div class="about-head">
+                <div class="text-head center" >
+                    <h2>ABOUT US</h2>
+                </div>
+                <div class="text-p">
+                    We are a technology partner and venture builder committed to investing in developing
+                high-potential products. With the experience, expertise, and capabilities
+                of our partners, we work together to create innovations and drive the growth of
+                continuously evolving new business models.
+                </div>
+               </div>
                 <div class="grid-2">
                     <div class="about-item-img">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580.5 541.73">
-                            <rect width="147.06" height="147.06" rx="10" ry="10" fill="#7bb8e5" />
-                            <rect
-                              x="216.47"
-                              width="147.06"
-                              height="147.06"
-                              rx="10"
-                              ry="10"
-                              fill="#f69379"
-                            />
-                            <rect
-                              x="432.94"
-                              width="147.06"
-                              height="147.06"
-                              rx="10"
-                              ry="10"
-                              fill="#f9df77"
-                            />
-                            <rect
-                              x=".5"
-                              y="197.84"
-                              width="147.06"
-                              height="147.06"
-                              rx="10"
-                              ry="10"
-                              fill="#64c6bc"
-                            />
-                            <rect
-                              x="216.97"
-                              y="197.84"
-                              width="147.06"
-                              height="147.06"
-                              rx="10"
-                              ry="10"
-                              fill="#fdc478"
-                            />
-                            <rect
-                              x="433.44"
-                              y="197.84"
-                              width="147.06"
-                              height="147.06"
-                              rx="10"
-                              ry="10"
-                              fill="#d0b4d6"
-                            />
-                            <rect
-                              x="3.24"
-                              y="394.68"
-                              width="147.06"
-                              height="147.06"
-                              rx="10"
-                              ry="10"
-                              fill="#f291bc"
-                            />
-                            <rect
-                              x="219.71"
-                              y="394.68"
-                              width="147.06"
-                              height="147.06"
-                              rx="10"
-                              ry="10"
-                              fill="#c6c5ca"
-                            />
-                            <rect
-                              x="429.71"
-                              y="394.68"
-                              width="147.06"
-                              height="147.06"
-                              rx="10"
-                              ry="10"
-                              fill="#cae3ad"
-                            />
-                            <rect width="147.06" height="147.06" rx="10" ry="10" fill="#7bb8e5" />
-                            <rect
-                              x="216.47"
-                              width="147.06"
-                              height="147.06"
-                              rx="10"
-                              ry="10"
-                              fill="#f69379"
-                            />
-                            <rect
-                              x="432.94"
-                              width="147.06"
-                              height="147.06"
-                              rx="10"
-                              ry="10"
-                              fill="#f9df77"
-                            />
-                          </svg>
+                        <br><br>
+                       <img src="@/public/assets/img/bg-2.jpg" alt="" style="width:100%;border-radius: 15px;">
                     </div>
                     <div class="about-item-text">
-                        <div class="text-head center">
-                            <h2>ABOUT US</h2>
-                        </div>
-                        <div class="text-p">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos perferendis nesciunt delectus ullam! Rerum earum necessitatibus natus cupiditate tempora, exercitationem error dignissimos, animi ex totam suscipit recusandae in, ipsum fugiat.
-                        </div>
+                      
                        <div class="about-grid-2">
                         
                             <div class="about-group-img">
@@ -236,9 +157,12 @@
                                   </svg>
                             </div>
                             <div class="about-group-text">
-                                <h3>Building Web Application</h3>
+                                <h3>Our Mission</h3>
                                 <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    We are committed to creating and developing sustainable
+businesses through the use of advanced technologies. By
+collaborating with expert partners, our goal is to invest in and
+develop high-potential products that drive growth in the digital age.
                                 </p>
                             </div>
 
@@ -335,9 +259,11 @@
                                   </svg>
                             </div>
                             <div class="about-group-text">
-                                <h3>High Quality UX/UI</h3>
+                                <h3>Our Expertise</h3>
                                 <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    We combine experience and expertise across various industries,
+with a team capable of creating innovations that meet the ever-
+changing demands of the market.
                                 </p>
                             </div>
 
@@ -434,9 +360,11 @@
                                   </svg>
                             </div>
                             <div class="about-group-text">
-                                <h3>Consulting</h3>
+                                <h3>Our Vision</h3>
                                 <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Looking ahead, we aim to build businesses driven by innovation,
+                                    using technology to develop new ideas that propel new business
+                                    models and create opportunities in the global market.
                                 </p>
                             </div>
                        
@@ -775,6 +703,12 @@
         </div>
     </div>
 
+<div class="team-wrapper">
+    <div class="team-text">
+        <h2>BINDZER TECH CO., LTD.</h2>
+    </div>
+</div>
+
     <div class="footer-wrapper">
         <div class="container footer-container">
             <div class="footer-inner">
@@ -817,14 +751,36 @@
     </div>
 </template>
 
-
 <script setup>
 import { useHead, onMounted } from '#imports'
 
 useHead({
-  link: [{ rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css' }],
-  script: [{ src: 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js', defer: true }]
-})
+  link: [
+    {
+      rel: "stylesheet",
+      href: "https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    },
+    {
+      rel: "preconnect",
+      href: "https://fonts.googleapis.com"
+    },
+    {
+      rel: "preconnect",
+      href: "https://fonts.gstatic.com",
+      crossorigin: "anonymous"
+    },
+    {
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css2?family=Kanit:wght@100..900&display=swap"
+    }
+  ],
+  script: [
+    {
+      src: "https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js",
+      defer: true
+    }
+  ]
+});
 
 onMounted(() => {
   const checkSwiper = setInterval(() => {
@@ -850,15 +806,21 @@ onMounted(() => {
 
 
 <style>
-    * {
-    box-sizing: border-box;
-    }
+      * {
+  box-sizing: border-box;
+  font-family: kanit;
+}
     body {
         margin: 0;
         padding: 0;
         font-family: sans-serif;
     }
 
+    .about-wrapper{
+        position: relative;
+
+       
+    }
 
         nav {
             
@@ -888,7 +850,8 @@ onMounted(() => {
 
         .nav-logo {
             color: #fff;
-
+            position: relative;
+            top:10px;
             font-weight: bold;
             font-size: 13px;
             font-family: "Space Grotesk", serif;
@@ -922,7 +885,7 @@ onMounted(() => {
             width:100%;
             background-color: #fff;
 
-            min-height:800px;
+            height:1000px;
             position: relative;
             overflow: hidden;
         }
@@ -931,13 +894,20 @@ onMounted(() => {
             background-color: blue;
             top:0px;
             left:-40px;
-            width:4500px;
+            min-width:4000px;
             height:800px;
-            transform: rotate(10deg);
+            transform: rotate(5deg);
             z-index: 1;
         }
         .header-item-text{
             color:#fff;
+        }
+        .header-item-text h2{
+            font-size:50px;
+        }
+        .header-item-text p{
+            font-size:22px;
+            font-weight: 300;
         }
         .header-inner{
             z-index: 9;
@@ -945,7 +915,7 @@ onMounted(() => {
             
             height:500px;
             position: absolute;
-            top:100px;
+            top:50px;
         }
         .header-grid{
             display:grid;
@@ -1001,9 +971,7 @@ onMounted(() => {
             min-height:300px;
             position: relative;
             width:100%;
-            bottom:-20px;
-            border-top-left-radius: 50%;
-            border-top-right-radius: 50%;
+           
         }
 
         .career-area{
@@ -1026,6 +994,9 @@ onMounted(() => {
         }
         .header-item-img{
             text-align: center;
+        }
+        .header-item-img img{
+          
         }
 
 
@@ -1060,7 +1031,9 @@ onMounted(() => {
     display:grid;
     grid-template-columns: 100px 1fr;
 }
-
+.about-wrapper{
+    
+}
 .career-tab{
     border-bottom:1px solid #ccc;
     padding-bottom:10px;
@@ -1133,17 +1106,26 @@ onMounted(() => {
     .nav-menu{
         display: none;
     }
+    
 
    
     .about-inner{
+        top:100px;
         position: relative;
-        top:-100px;
+       
+       
     }
     .about-item-text{
         margin-top:100px;
     }
+    .our-item-text{
+        text-align: center;
+    }
 }
 
+.about-head{
+    padding-bottom:100px;max-width:550px;text-align: center;margin:0 auto;
+}
 .about-group-img{
     padding:30px;
 }
@@ -1189,9 +1171,31 @@ onMounted(() => {
    .footer-item:last-child{
     padding-bottom:30px;
    }
-   .footer-wrapper{
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-   }
 }
-</style>
+
+.team-wrapper{
+    background:url('@/public/assets/img/bg-3.jpg');
+    background-position: center;
+    height:800px;
+    position: relative;
+}
+
+.team-wrapper::before{
+    content:'sss';
+    display:block;
+    width:100%;
+    height:800px;
+    background-color: blue;
+    opacity: 0.5;
+    position: absolute;
+}
+.team-text{
+    position: absolute;
+    bottom:0;
+    width:100%;
+}
+.team-text h2{
+    text-align: center;
+    color:#fff;
+}
+    </style>
